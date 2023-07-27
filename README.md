@@ -1,8 +1,8 @@
-# Encryption / Decryption of files using AES algorithm
+### Encryption / Decryption of files using AES algorithm
 
 This is a console app that encrypts and decrypts files using the AES-128 encryption algorithm in Cipher Block Chaining (CBC) mode.
 
-## Features
+### Features
 
 Users are prompted to enter a path to the file to encrypt. They are also provided with a hex encryption key, which is necessary for decryption.
 Users need to install OpenSSL library for cryptographic operations to be able to run the application.
@@ -11,7 +11,7 @@ Users need to install OpenSSL library for cryptographic operations to be able to
 
 OpenSSL is a widely-used open-source cryptographic library that provides various cryptographic functions, including encryption, decryption, hashing, digital signatures, and more. It is commonly used in secure communication protocols like HTTPS, TLS/SSL, and SSH, as well as in various security-related applications.
 
-#### How AES-128 encryption algorithm in Cipher Block Chaining (CBC) mode works
+### How AES-128 encryption algorithm in Cipher Block Chaining (CBC) mode works
 
 AES-128 encryption algorithm in Cipher Block Chaining (CBC) mode is a widely used symmetric encryption scheme. AES (Advanced Encryption Standard) is a block cipher that operates on fixed-size blocks of data (128 bits). CBC is one of the block cipher modes of operation used to apply AES to encrypt data that is larger than a single block.
 
@@ -33,7 +33,7 @@ Here's a step-by-step explanation of how AES-128 encryption in CBC mode works:
 
 Decryption works in reverse, where each ciphertext block is decrypted with AES-128 using the same encryption key and then XORed with the previous ciphertext block to retrieve the original plaintext block.
 
-##### Installation
+### Installation
 
 This app is written in C. To encrypt a file, compile and run the 'encrypt_aes.c' file:
 
