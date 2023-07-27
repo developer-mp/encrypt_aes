@@ -1,6 +1,6 @@
-# Encryption / Decryption of text files using AES algorithm
+# Encryption / Decryption of files using AES algorithm
 
-This is a console app that encrypts and decrypts text files using the AES-128 encryption algorithm in Cipher Block Chaining (CBC) mode.
+This is a console app that encrypts and decrypts files using the AES-128 encryption algorithm in Cipher Block Chaining (CBC) mode.
 
 ## Features
 
@@ -37,10 +37,10 @@ Decryption works in reverse, where each ciphertext block is decrypted with AES-1
 
 This app is written in C. To encrypt a file, compile and run the 'encrypt_aes.c' file:
 
-gcc -o encrypt_aes encrypt_aes.c -lcrypto
-./encrypt_aes
+- gcc -o encrypt_aes encrypt_aes.c -lcrypto
+- ./encrypt_aes
 
 To decrypt a file, compile and run the 'decrypt_aes.c' file:
 
-gcc -o decrypt_aes decrypt_aes.c -lcrypto
-./decrypt_aes
+- gcc -o decrypt_aes decrypt_aes.c -lcrypto
+- ./decrypt_aes
